@@ -129,12 +129,14 @@ body {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  color: #505f79;
 }
 
 .icons * {
   justify-items: stretch;
   text-align: justify;
   margin: 0 4px;
+  color: #505f79;
 }
 
 ul li a {
@@ -384,8 +386,8 @@ ul li a {
 
 #action {
   display: flex;
-  width: 85%;
-  height: 70px;
+  width: 35%;
+  height: 30px;
   align-items: center;
   order: 3;
 }
@@ -754,48 +756,42 @@ hr {
 }
 
 #name {
-  border-radius: 8px;
+  /* border-radius: 8px; */
   border: 1px #cfd8dc solid;
   background-color: #fff;
   margin-bottom: 20px;
-  padding: 15px 25px;
-  width: 70%;
+  padding: 10px;
+  width: 100%;
   order: 0;
 }
 
 #mail {
-  border-radius: 8px;
   border: 1px #cfd8dc solid;
   background-color: #fff;
-  padding: 15px 25px;
-  width: 70%;
+  padding: 10px;
+  width: 100%;
   margin-bottom: 15px;
 }
 
 #textarea {
-  border-radius: 8px;
   border: 1px #cfd8dc solid;
   background-color: #fff;
-  padding: 15px 25px;
-  width: 70%;
+  padding: 10px;
+  width: 100%;
   margin-bottom: 15px;
   color: #b3bac5;
 }
 
 .normalbuttnabout {
-  display: flex;
-  width: 175px;
-  align-items: flex-start;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.03em;
-  color: #396df2;
-  font-size: 17px;
+  align-self: center;
+  background-color: #ff6b00;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+  font-size: 15px;
   font-weight: 500;
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  cursor: pointer;
-  background-color: #fff;
+  padding: 12px 24px;
+  margin-left: 5%;
 }
 
 .normalbuttnabout:hover {
@@ -1254,13 +1250,13 @@ hr {
   }
 
   #textarea {
-    width: 70%;
+    width: 100%;
   }
 
   #action {
     display: flex;
-    width: 10%;
-    height: 60px;
+    width: 35%;
+    height: 30px;
     margin-top: 2px;
     align-items: center;
   }
@@ -1436,6 +1432,7 @@ hr {
     width: auto;
     height: 20px;
     margin-top: 15px;
+    color: #505f79;
   }
 
   .card-primary-tag {
@@ -1744,32 +1741,29 @@ hr {
 
   #name {
     align-items: center;
-    border-radius: 8px;
     border: 1px #cfd8dc solid;
     background-color: #fff;
     margin-bottom: 20px;
-    width: 90%;
+    width: 100%;
   }
 
   #mail {
     align-items: center;
-    border-radius: 8px;
     border: 1px #cfd8dc solid;
     background-color: #fff;
-    width: 90%;
+    width: 100%;
   }
 
   #textarea {
-    border-radius: 8px;
     border: 1px #cfd8dc solid;
     background-color: #fff;
-    width: 90%;
+    width: 100%;
   }
 
   #action {
     display: flex;
-    width: 100%;
-    height: 60px;
+    width: 90%;
+    height: 80px;
     margin-top: 2px;
     align-items: center;
   }
@@ -1786,7 +1780,6 @@ hr {
     font-weight: 500;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    cursor: pointer;
     background-color: #fff;
   }
 

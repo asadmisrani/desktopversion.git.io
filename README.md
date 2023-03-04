@@ -22,7 +22,7 @@
 
 Hello Microverse This project set of instructions outlines the requirements for a project, specifically aimed at creating a desktop version of a website. The project requires the use of media queries in the CSS file, which is used to ensure that the website appears as similar as possible to the template selected, specifically for screens that are 768px and larger. To layout the elements on the page, the project requires the use of Grid and Flexbox, which are tools that enable effective and efficient web design. The project does not require any JavaScript functionality, but it is encouraged to continue learning and adding to the project where possible. Finally, it is essential to replicate the design as much as possible, which includes matching the font, colors, images, text, and margins to create a cohesive and visually pleasing website. Overall, this set of instructions provides a clear framework for creating a desktop version of a website that is both functional and visually appealing.
 
-Getting Started
+💻 Getting Started
 To get the content of this project locally you need to run the following commands in your terminal.
 
 To get a local copy up and running follow these simple example steps.
